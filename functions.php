@@ -1,7 +1,7 @@
 <?php
 
 function themeConfig($form) {
-	$billboard = new Typecho_Widget_Helper_Form_Element_Text('billboard', NULL, NULL, _t('首页图片'), _t('在这里填入一个图片URL, 作为首页图片'));
+	$billboard = new Typecho_Widget_Helper_Form_Element_Text('billboard', NULL, NULL, _t('../img/billboard.jpg'), _t('在这里填入一个图片URL, 作为首页图片'));
 	$form->addInput($billboard);
 
 	$slogan = new Typecho_Widget_Helper_Form_Element_Text('slogan', NULL, NULL, _t('首页图片标语'), _t('在这里填入一段文字，作为首页图片中的标语文字'));
