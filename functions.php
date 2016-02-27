@@ -15,6 +15,7 @@ function themeConfig($form) {
 
 	$misc = new Typecho_Widget_Helper_Form_Element_Checkbox('misc', array(
 		'ShowLogin' => _t('前台显示登录入口'),
+		'ShowThemeCopyRight' => _t('页脚显示模板版权'),
 		'ShowLoadTime' => _t('页脚显示加载耗时'),
 	),
 		array('ShowLogin'), _t('杂项'));
