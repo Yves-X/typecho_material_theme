@@ -34,6 +34,7 @@
 	<script src="<?php $this->options->themeUrl('js/bootstrap.min.js');?>"></script>
 	<script src="<?php $this->options->themeUrl('js/material.min.js');?>"></script>
 	<script src="<?php $this->options->themeUrl('js/ripples.min.js');?>"></script>
+	<script src="<?php $this->options->themeUrl('js/extra.min.js');?>"></script>
 	<script>
       $.material.init();
     </script>
