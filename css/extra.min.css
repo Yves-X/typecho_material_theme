@@ -6,3 +6,4 @@ pre .django .tag .keyword,pre .rules .property,pre .tag,pre .tag .title{color:na
 pre .regexp{color:#009926}pre .class{color:#458;font-weight:700}pre .lisp .keyword,pre .prompt,pre .ruby .symbol .string,pre .symbol,pre .tex .special{color:#990073}
 pre .built_in,pre .clojure .built_in,pre .lisp .title{color:#0086b3}pre .cdata,pre .doctype,pre .pi,pre .pragma,pre .preprocessor,pre .shebang{color:#999;font-weight:700}
 pre .deletion{background:#fdd}pre .addition{background:#dfd}pre .diff .change{background:#0086b3}pre .chunk{color:#aaa}#scrollUp{bottom:20px;right:20px}
+#comments .reply-button{border-radius:25px;padding:8px;margin:0 0 10px;font-size:16px}

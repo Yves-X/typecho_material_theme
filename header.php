@@ -21,7 +21,6 @@
         <link rel="stylesheet" href="<?php $this->options->themeUrl('css/ripples.min.css'); ?>">
         <link rel="stylesheet" href="<?php $this->options->themeUrl('css/roboto.min.css'); ?>">
         <link rel="stylesheet" href="<?php $this->options->themeUrl('css/customs.min.css'); ?>">
-        <link rel="stylesheet" href="<?php $this->options->themeUrl('css/extra.min.css'); ?>">
 	</head>
 
 	<header>
