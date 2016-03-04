@@ -15,7 +15,7 @@ And I'm maintaining my own copy.
 
 该主题的原始作者是 [kookxiang](https://ikk.me)。
 
-**这份代码来自于[HanSon](http://hanc.cc/)**，他仿造了 KK 的主题。
+**这份代码来自于 [HanSon](http://hanc.cc/)**，他仿造了 KK 的主题。
 
 我维护着这份自己的拷贝。
 
@@ -33,13 +33,13 @@ If you're intersted in my copy, have fun. Attention: There is no one public vers
 
 如果你对我的拷贝感兴趣，祝你喜欢。请注意：所有版本都与我自己实装版本有所不同，当然，也包括这一份。所以这是一份未经任何测试的代码。如有任何问题，请修复它或知会予我。
 
-# Feature
+# Features
 
 None.
 
 主要用来记录修改，所以在觉得有必要之前，大概不会有什么区别。
-如果一定要说……以下显然并无技术含量的是举手之劳了：
-- 根据事实修正了模板的版权信息，并设置选项。要么不显示，要么显示完整。
+如果一定要说……以下显然是并无技术含量的举手之劳了：
+- 根据事实修正了模板的版权信息，并设置选项。不显示 or 正确说明。
 - 修改 billboard 图片展示方式。
 - 打包友情链接插件。
 - 增加返回顶部按钮。
