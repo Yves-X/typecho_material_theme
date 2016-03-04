@@ -11,7 +11,10 @@
 				<div class="pull-left copyright">Copyright &copy; 2015&nbsp;<?php $this->options->title(); ?></div>
 				<ul class="footer-nav pull-right">
 					<li>Powered by <a href="http://typecho.org/" rel="nofollow">Typecho)))</a></li>
+					<?php if (!empty($this->options->misc) && in_array('ShowThemeCopyRight', $this->options->misc)): ?>
+					<li>Designed by <a href="https://ikk.me">kookxiang</a></li>
 					<li>Optimized by <a href="http://hanc.cc">HanSon</a></li>
+					<?php endif;?>
 
 					<?php if($this->options->miibeian) : ?>
 					<li><a href="http://www.miibeian.gov.cn" rel="nofollow"><?php echo $this->options->miibeian; ?></a></li>
@@ -33,5 +36,7 @@
 	<script>
       $.material.init();
     </script>
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('css/extra.min.css'); ?>">
+    <script src="<?php $this->options->themeUrl('js/extra.min.js');?>"></script>
 	</body>
 </html>

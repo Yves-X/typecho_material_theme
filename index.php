@@ -12,12 +12,13 @@
 $this->need('header.php');
 ?>
 <section class="billboard">
++<style>.billboard { background: #b8d9fa url(<?php $this->options->billboard()?>) 50% 0 repeat-x; background-size: cover; }</style>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7">
 				<div class="intro animate fadeIn">
 					<h1><?php $this->options->slogan() ?></h1>
-					<p class="lead"></p>
+					<p class="lead"><?php $this->options->leanSlogan()?></p>
 				</div>
 			</div>
 		</div>
