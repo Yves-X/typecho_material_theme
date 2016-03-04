@@ -8,7 +8,7 @@
 	<footer>
 		<div class="footer-bottom">
 			<div class="container">
-				<div class="pull-left copyright">Copyright &copy; 2015&nbsp;<?php $this->options->title(); ?></div>
+				<div class="pull-left copyright">Copyright &copy; 2016&nbsp;<?php $this->options->title(); ?></div>
 				<ul class="footer-nav pull-right">
 					<li>Powered by <a href="http://typecho.org/" rel="nofollow">Typecho)))</a></li>
 					<?php if (!empty($this->options->misc) && in_array('ShowThemeCopyRight', $this->options->misc)): ?>
