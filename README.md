@@ -1,27 +1,35 @@
-# typecho-material-theme
-material style theme for the typecho
+# This is a personal branch
 
-# version
+Typecho_material_theme is a theme for Typecho. This is a personal branch of it. This branch cloud contain many cutoms, so **it's not available for everyone**.
 
-2.0.0
+Typecho_material_theme 是一个 Typecho 模板。这是一个它的个人修改版。此分支可能包含了许多自定义修改，所以**它并不适用于所有人**。
 
-# new feature
-2.0.0: _增加父级分类_
+# Who made it?
 
-#feature
+The original creater of this theme is [kookxiang](https://ikk.me).
 
-_自定义图片与标语_
+**This open-source code is from [HanSon](http://hanc.cc/)**, who modeled KK's theme.
 
-_分类导航栏显示_
+And I'm maintaining my own copy.
 
-_备案号自定义_
 
-_定义是否显示加载时间_
+该主题的原始作者是 [kookxiang](https://ikk.me)。
 
-#other
+**这份代码来自于[HanSon](http://hanc.cc/)**，他仿造了 KK 的主题。
 
-详细教程在此 http://hanc.cc/index.php/archives/126/
+我维护着这份自己的拷贝。
 
-如需使用友情链接，请使用以下链接的插件
+# If you are interested in...
 
-https://github.com/Hanccc/Links-for-Material-Theme
+If you like this theme, please move to KK's [blog](https://ikk.me) or [Github repositories](https://github.com/kookxiang).
+
+If you want to install this theme for your own Typecho blog, please move to [HanSon's Github repository](https://github.com/Hanccc/typecho_material_theme).
+
+If you're intersted in my copy, please don't use this branch. Just move to [master branch](https://github.com/Yves-X/typecho_material_theme/tree/master) of mine.
+
+
+如果你喜欢该主题，请移步 KK 的[博客](https://ikk.me)或[ Github 仓库](https://github.com/kookxiang)。
+
+如果你想要为自己的 Typecho 博客安装该主题，请移步 HanSon 的[ Github 仓库](https://github.com/Hanccc/typecho_material_theme)。
+
+如果你对我的拷贝感兴趣，也请不要使用此分支。请移步我的[主分支](https://github.com/Yves-X/typecho_material_theme/tree/master)。
