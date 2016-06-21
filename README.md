@@ -48,7 +48,7 @@ cd ..
 # Pick from Github
 git clone https://github.com/Yves-X/typecho_material_theme.git
 # Copy into the directory of Typecho
-cp -r ./Data/typecho_material_theme ./typecho
+cp -r ./typecho_material_theme ./typecho
 ```
 
 or
