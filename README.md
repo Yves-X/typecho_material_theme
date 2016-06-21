@@ -41,6 +41,25 @@ None.
 # How to use?
 
 ```
-cd /typecho
+# Move to the root directory of Typecho
+cd typecho
+# Back out
+cd ..
+# Pick from Github
 git clone https://github.com/Yves-X/typecho_material_theme.git
+# Copy into the directory of Typecho
+cp -r ./Data/typecho_material_theme ./typecho
+```
+
+or
+
+```
+# Move to the root directory of Typecho
+cd typecho
+# Back out
+cd ..
+# Download from Github
+wget https://github.com/Yves-X/typecho_material_theme/archive/master.zip -O master.zip
+# Unzip
+unzip -o -d ./typecho master.zip
 ```
