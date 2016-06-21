@@ -14,7 +14,6 @@ The original creater of this theme is [kookxiang](https://ikk.me).
 And here is my own copy, recording a few simple edits.
 
 
-
 # If you are interested in...
 
 If you like this theme, please move to KK's [blog](https://ikk.me) or [Github repositories](https://github.com/kookxiang).
