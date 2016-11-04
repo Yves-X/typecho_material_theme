@@ -77,7 +77,7 @@ https://github.com/HanSon/Links_for_Material_Theme
 ```html
 <!--用下面内容替换“回复”-->
 <button type="button" class="btn btn-danger btn-xs mdi-content-reply reply-button"><div class="ripple-wrapper"></div></button>
-<!--用下面代码内容“取消回复”-->
+<!--用下面内容“取消回复”-->
 $("div .cancel-comment-reply").children().html('<button type="button" class="btn btn-primary btn-xs btn-fab mdi-content-clear pull-right"><div class="ripple-wrapper"><div class="ripple ripple-on ripple-out" style="left: 28px; top: 23px; transform: scale(6); background-color: rgba(255, 255, 255, 0.843137);"></div><div class="ripple ripple-on ripple-out" style="left: 34px; top: 32px; transform: scale(6); background-color: rgba(255, 255, 255, 0.843137);"></div></div></button>');
 ```
 
