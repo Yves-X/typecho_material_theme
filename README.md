@@ -64,4 +64,27 @@ unzip -o -d ./typecho master.zip
 
 # Other
 
-友情链接插件：https://github.com/HanSon/Links_for_Material_Theme
+1. 友情链接插件：
+
+https://github.com/HanSon/Links_for_Material_Theme
+
+2. `回复`与`取消回复`按钮：
+
+替换相关元素
+
+```html
+<!--用下面内容替换“回复”-->
+<button type="button" class="btn btn-danger btn-xs mdi-content-reply reply-button"><div class="ripple-wrapper"></div></button>
+<!--用下面代码内容“取消回复”-->
+$("div .cancel-comment-reply").children().html('<button type="button" class="btn btn-primary btn-xs btn-fab mdi-content-clear pull-right"><div class="ripple-wrapper"><div class="ripple ripple-on ripple-out" style="left: 28px; top: 23px; transform: scale(6); background-color: rgba(255, 255, 255, 0.843137);"></div><div class="ripple ripple-on ripple-out" style="left: 34px; top: 32px; transform: scale(6); background-color: rgba(255, 255, 255, 0.843137);"></div></div></button>');
+```
+
+或
+
+在适当位置用js脚本替换
+（如果你不知道这是什么意思，请把代码追加在`./js/extra.min.js`后）
+
+```javascript
+$("div .comment-reply").children().html('<button type="button" class="btn btn-danger btn-xs mdi-content-reply reply-button"><div class="ripple-wrapper"></div></button>');
+$("div .cancel-comment-reply").children().html('<button type="button" class="btn btn-primary btn-xs btn-fab mdi-content-clear pull-right"><div class="ripple-wrapper"><div class="ripple ripple-on ripple-out" style="left: 28px; top: 23px; transform: scale(6); background-color: rgba(255, 255, 255, 0.843137);"></div><div class="ripple ripple-on ripple-out" style="left: 34px; top: 32px; transform: scale(6); background-color: rgba(255, 255, 255, 0.843137);"></div></div></button>');
+```
