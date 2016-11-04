@@ -57,7 +57,12 @@
 	        ->parse('<a href="{permalink}" class="item">{date}</a>'); ?>
 	    </div>
 	</div>
- 	<?php Links_Plugin::output(); ?>
+
+ 	<?php
+ 		//如果你安装了友情链接插件，请移除下面的注释符号
+ 		//Links_Plugin::output();
+ 	?>
+	
 	<div class="panel panel-info">
 	    <a class="panel-heading" onclick="$('.other_box').slideToggle()" href="javascript:;">
 	        <h3 class="panel-title">其他</h3>
