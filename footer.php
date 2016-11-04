@@ -1,14 +1,10 @@
 
-	<!--
-	<script src="//cdn.bootcss.com/bootstrap-material-design/0.3.0/js/material.min.js"></script>
-	<script src="//cdn.bootcss.com/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>
-	-->
 	</div>
 	</div>
 	<footer>
 		<div class="footer-bottom">
 			<div class="container">
-				<div class="pull-left copyright">Copyright &copy; 2016&nbsp;<?php $this->options->title(); ?></div>
+				<div class="pull-left copyright">Copyright &copy; <?php _e(date('Y'));?>&nbsp;<?php $this->options->title(); ?></div>
 				<ul class="footer-nav pull-right">
 					<li>Powered by <a href="http://typecho.org/" rel="nofollow">Typecho)))</a></li>
 					<?php if (!empty($this->options->misc) && in_array('ShowThemeCopyRight', $this->options->misc)): ?>
