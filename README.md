@@ -3,7 +3,7 @@
 Typecho_material_theme 是一个 [Typecho](https://github.com/typecho/typecho) 模板。这是一个修改版本。
 
 
-# Who made it?
+# Author
 
 该主题的原始作者是 [kookxiang](https://ikk.me)。
 
@@ -12,11 +12,11 @@ Typecho_material_theme 是一个 [Typecho](https://github.com/typecho/typecho) �
 这里是一份我的拷贝，记录了一些简单的编辑。
 
 
-# If you are interested in...
+# Notice
 
-如果你喜欢该主题，请移步 KK 的[博客](https://ikk.me)或[ Github 仓库](https://github.com/kookxiang)。
+如果你喜欢该主题，请移步 KK 的[博客](https://ikk.me)或 [Github 仓库](https://github.com/kookxiang)。
 
-如果你想要为自己的 Typecho 博客安装该主题，请移步 HanSon 的[ Github 仓库](https://github.com/Hanccc/typecho_material_theme)。
+如果你想要为自己的 Typecho 博客安装该主题，请移步 HanSon 的 [Github 仓库](https://github.com/Hanccc/typecho_material_theme)。
 
 如果你对我的拷贝感兴趣，祝你喜欢。请注意：所有版本都与我自己实装版本有所不同，当然，也包括这一份。所以这是一份未经充分测试的代码。如有任何问题，请尝试修复它或知会予我。
 
@@ -29,37 +29,39 @@ None.
 如果一定要说……以下显然是并无技术含量的举手之劳了：
 - 根据事实修正了模板的版权信息，并设置选项。不显示 or 正确说明。
 - 增加 billboard 图片的设置项，并修改了展示方式。
-- 打包友情链接插件
 - 打包返回顶部按钮。
-- 打包代码高亮。
 - 修复了回复评论会导致页面刷新，且取消回复不显示的 bug。
 - 修复了副标语的设置项。
 
-一份仅包含修复（而不含其它任何更改，如更正版权）的分支已 pull，但被代码作者关闭。所以对于不想自行修复的人，clone 这份代码会是更便捷的选择。
+一份仅包含修复（而不含版权等其他任何更改）的分支已 pull，但被代码作者关闭。所以对于不想自行修复的人，clone 这份代码会是更便捷的选择。
 
 
-# How to use?
+# Install
 
-```
-# Move to the root directory of Typecho
-cd typecho
-# Back out
-cd ..
-# Pick from Github
+```bash
+
+# Initailly open the root document of your Typecho, then
+
+# Change to the document of themes
+cd ./usr/themes
+# Clone from Github
 git clone https://github.com/Yves-X/typecho_material_theme.git
-# Copy into the directory of Typecho
-cp -r ./typecho_material_theme ./typecho
 ```
 
-or
+Otherwise
 
-```
-# Move to the root directory of Typecho
-cd typecho
-# Back out
-cd ..
+```bash
+
+# Initailly open the root document of your Typecho, then
+
+# Change to the document of themes
+cd ./usr/themes
 # Download from Github
 wget https://github.com/Yves-X/typecho_material_theme/archive/master.zip -O master.zip
 # Unzip
 unzip -o -d ./typecho master.zip
 ```
+
+# Other
+
+友情链接插件：https://github.com/HanSon/Links_for_Material_Theme
