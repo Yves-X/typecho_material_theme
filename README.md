@@ -68,6 +68,8 @@ unzip -o -d ./typecho master.zip
 
 https://github.com/HanSon/Links_for_Material_Theme
 
+安装后请修改 `./sidebar.php`，移除输出代码的注释符号
+
 2. `回复`与`取消回复`按钮：
 
 替换相关元素
@@ -81,8 +83,8 @@ $("div .cancel-comment-reply").children().html('<button type="button" class="btn
 
 或
 
-在适当位置用js脚本替换
-（如果你不知道这是什么意思，请把代码追加在`./js/extra.min.js`后）
+在适当位置用 js 脚本替换
+（如果你不知道这是什么意思，请把代码追加在 `./js/extra.min.js` 后）
 
 ```javascript
 $("div .comment-reply").children().html('<button type="button" class="btn btn-danger btn-xs mdi-content-reply reply-button"><div class="ripple-wrapper"></div></button>');
